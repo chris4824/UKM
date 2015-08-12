@@ -19,8 +19,6 @@ case $DEVICE in
 		CONFIG="bacon";; #OnePlus One
 	maguro|toro|toroplus)
 		CONFIG="maguro";; #Galaxy Nexus
-	jfltetmo|jfltecan|jfltxx)
-		CONFIG="S4";; #Galaxy S4
 #Unofficial
 	gee*|v500|*m7*|odin|C650?|yuga|C660?|ghost*|xt105?|xt1060|obake*|xt1080*)
 		CONFIG="mako";; #gee* = LG Optimus G, v500 = LG G Pad 8.3, *m7* = HTC One M7, odin|C650x = Sony Xperia ZL, yuga|C660x = Sony Xperia Z
