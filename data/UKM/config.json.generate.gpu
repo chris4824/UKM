@@ -135,7 +135,7 @@ cat << CTAG
 					}},'
 				fi
 			fi`
-			`if [ -f "/sys/devices/system/cpu/cpu0/cpufreq/gpu_mv_table" ]; then
+			`if [ -f "/sys/devices/system/cpu/cpufreq/gpu_vdd_table/gpu_vdd_table" ]; then
 				$BB echo '{ SPane:{
 					title:"GPU Voltages"
 				}},'
@@ -151,7 +151,7 @@ cat << CTAG
 							else
 								$BB echo 'min:900, max:1200, step:5 }},'
 							fi;
-					done < /sys/devices/system/cpu/cpu0/cpufreq/gpu_mv_table
+					done < /sys/devices/system/cpu/cpufreq/gpu_vdd_table/gpu_vdd_table
 			fi`
 		]
 }
