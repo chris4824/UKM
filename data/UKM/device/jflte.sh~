@@ -137,6 +137,9 @@ case "$1" in
 			$BB echo "$MIN_PWRLVL:\"${LABEL} MHz\", ";
 		done;
 	;;
+	HasBootloader)
+		$BB echo "1";
+	;;
 	HasHeadphonePowerAmp)
 		$BB echo "1";
 	;;
